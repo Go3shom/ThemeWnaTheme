@@ -1,0 +1,35 @@
+body {
+    height: 10000px;
+}
+
+:root {
+    --clr-primary: #db343b;
+    --clr-dark: #ab2632;
+    --clr-secondary: #37c2f0;
+    --clr-black: #313444;
+}
+
+.logo {
+    width: 7rem;
+	height: 2rem;
+}
+
+.bg-image {
+    height: 70vh;
+    /* background-color: var(--clr-secondary); */
+    background-image: url(../assets/images/robot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-primary {
+    color: var(--clr-primary);
+}
+
+.border-top-right {
+    border-radius: 0 3em 0 0;
+}
+
+.border-bottom-right {
+    border-radius: 0 0 3em 0;
+}
